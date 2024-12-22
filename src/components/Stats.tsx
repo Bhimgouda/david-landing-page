@@ -1,8 +1,8 @@
 const stats = [
-  { value: "$100K+", label: "Total Value Locked" },
+  { value: "$20K+", label: "Total Value Locked" },
   { value: "99.9%", label: "Uptime" },
-  { value: "50,000+", label: "Active Users" },
-  { value: "15%", label: "Average APY" }
+  { value: "1,000+", label: "Active Users" },
+  { value: "10%", label: "Average APY" }
 ];
 
 const Stats = () => {

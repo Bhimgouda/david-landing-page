@@ -14,14 +14,16 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-6 animate-fade-in">
-            Meet David, Your AI DeFi Staking Assistant
+            Meet David, Your AI DeFi Staking Agent
           </h1>
           <p className="text-xl text-gray-200 mb-8 animate-fade-in">
             Maximize your crypto yields with intelligent staking strategies powered by advanced AI. David helps you navigate the DeFi landscape with confidence.
           </p>
-          <Button size="lg" className="animate-fade-in hover:scale-105 transition-transform">
-            Start Staking <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          <a href="https://t.me/David_StakeBot">
+            <Button size="lg" className="animate-fade-in hover:scale-105 transition-transform">
+              Start Staking <ArrowRight className="ml-2 h-5 w-5" />
+            </Button>
+          </a>
         </div>
       </div>
     </div>
